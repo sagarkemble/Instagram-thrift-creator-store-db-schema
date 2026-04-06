@@ -28,6 +28,7 @@ items[icon:shirt, color: Purple]{
 item_id serial pk
 name text not null
 type text not null ("thrifted","handmade")
+description text not null
 condition text not null ("new","gently_used","well_used","roughly_used")
 created_at timestamp
 updated_at timestamp
